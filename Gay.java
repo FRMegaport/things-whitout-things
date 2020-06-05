@@ -1,5 +1,5 @@
 public class Gay{
-    public static void main(Stirng[]args){
+    public static void main(String[] args){
         boolean ur_mom_gay = true;
         while(ur_mom_gay){
             {

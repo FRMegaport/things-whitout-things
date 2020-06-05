@@ -263,8 +263,7 @@ public class integralz {
         boolean oof = true;
 
         System.out.print("Enter the function to be integrated: ");
-
-        func = in.next();
+        func = in.nextLine();
 
         System.out.print("Enter the number of subdivision of ur beautiful integral: ");
         n = in.nextInt();
