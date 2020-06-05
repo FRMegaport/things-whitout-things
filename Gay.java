@@ -1,8 +1,22 @@
 public class Gay{
     public static void main(Stirng[]args){
-        int x = 2;
-        for(int i;i<x;){
-            System.out.println("GAY")
+        boolean ur_mom_gay = true;
+        while(ur_mom_gay){
+            {
+                {
+                    {
+                        {
+                            {
+                                {
+                                    {
+                                    System.out.println("UR GAY");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
         }
     }
 }
