@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class integralz {
+public class IntegralCalculator {
 
     public static void setIntegralz(int N) {
 
