@@ -1,77 +1,82 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class IntegralCalculator {
+
+
+    public static float mediumPoint(int x){
+        return x/2;
+    }
 
     public static void setIntegralz(int N) {
 
         boolean ok = true;
         Scanner in = new Scanner(System.in);
-        int value = 0;
+        ArrayList<Integer> values = new ArrayList<>(9);
         int i = 0;
         int j = 0;
 
         if (ok) {
 
             System.out.print("Enter x" + i + ": ");
-            value = in.nextInt();
-            System.out.println("x" + i + " = " + value);
+            values.add(i,in.nextInt());
+            System.out.println("x" + i + " = " + values.get(i));
             i++;
 
             if (ok) {
 
                 System.out.print("Enter x" + i + ": ");
-                value = in.nextInt();
-                System.out.println("x" + i + " = " + value);
+                values.add(i,in.nextInt());
+                System.out.println("x" + i + " = " + values.get(i));
                 i++;
 
                 if (ok) {
 
                     System.out.print("Enter x" + i + ": ");
-                    value = in.nextInt();
-                    System.out.println("x" + i + " = " + value);
+                    values.add(i,in.nextInt());
+                    System.out.println("x" + i + " = " + values.get(i));
                     i++;
 
                     if (ok) {
 
                         System.out.print("Enter x" + i + ": ");
-                        value = in.nextInt();
-                        System.out.println("x" + i + " = " + value);
+                        values.add(i,in.nextInt());
+                        System.out.println("x" + i + " = " + values.get(i));
                         i++;
 
                         if (ok) {
 
                             System.out.print("Enter x" + i + ": ");
-                            value = in.nextInt();
-                            System.out.println("x" + i + " = " + value);
+                            values.add(i,in.nextInt());
+                            System.out.println("x" + i + " = " + values.get(i));
                             i++;
 
                             if (ok) {
 
                                 System.out.print("Enter x" + i + ": ");
-                                value = in.nextInt();
-                                System.out.println("x" + i + " = " + value);
+                                values.add(i,in.nextInt());
+                                System.out.println("x" + i + " = " + values.get(i));
                                 i++;
 
                                 if (ok) {
 
                                     System.out.print("Enter x" + i + ", just for backup:");
-                                    value = in.nextInt();
-                                    System.out.println("x" + i + " = " + value);
+                                    values.add(i,in.nextInt());
+                                    System.out.println("x" + i + " = " + values.get(i));
                                     i++;
 
                                     if (ok) {
 
                                         System.out.print("Enter another x" + i + ", just beacuse we care about u:");
-                                        value = in.nextInt();
-                                        System.out.println("x" + i + " = " + value);
+                                        values.add(i,in.nextInt());
+                                        System.out.println("x" + i + " = " + values.get(i));
                                         i++;
 
                                         if (ok) {
 
-                                            System.out.print("Enter the last x" + i
-                                                    + ", modern problems require modern solutions:");
-                                            value = in.nextInt();
-                                            System.out.println("x" + i + " = " + value);
+                                            System.out.print("Enter the last x" + i + ", modern problems require modern solutions:");
+                                            values.add(i,in.nextInt());
+                                            System.out.println("x" + i + " = " + values.get(i));
                                             i++;
 
                                             if (ok) {
@@ -80,7 +85,104 @@ public class IntegralCalculator {
 
                                                     System.out.println("We aaare ok my brother! ");
                                                     Thread.sleep(500);
-                                                    System.out.println("Medium points set!");
+                                                    System.out.println("Setting medium points: ");
+                                                    Thread.sleep(500);
+
+                                                    i = 0;
+                                                    if(ok){
+
+                                                        System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                        Thread.sleep(500);
+                                                        //values.remove(i);
+                                                        i++;
+
+                                                        if(ok){
+
+                                                            System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                            Thread.sleep(500);
+                                                            //values.remove(i);
+                                                            i++;
+
+                                                            if(ok){
+
+                                                                System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                                Thread.sleep(500);
+                                                                //values.remove(i);
+                                                                i++;
+
+                                                                if(ok){
+
+                                                                    System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                                    Thread.sleep(500);
+                                                                    //values.remove(i);
+                                                                    i++;
+
+                                                                    if(ok){
+
+                                                                        System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                                        Thread.sleep(500);
+                                                                        //values.remove(i);
+                                                                        i++;
+
+                                                                        if(ok){
+
+                                                                            System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                                            Thread.sleep(500);
+                                                                            //values.remove(i);
+                                                                            i++;
+
+                                                                            if(ok){
+
+                                                                                System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                                                Thread.sleep(500);
+                                                                                //values.remove(i);
+                                                                                i++;
+
+                                                                                if(ok){
+
+                                                                                    System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                                                    Thread.sleep(500);
+                                                                                    //values.remove(i);
+                                                                                    i++;
+
+                                                                                    if(ok){
+
+                                                                                        System.out.println("ζ" + i + ": " + mediumPoint(values.get(i)));
+                                                                                        Thread.sleep(500);
+                                                                                        //values.remove(i);
+                                                                                        i++;
+                                
+                                                                                    }
+
+
+                            
+                                                                                }
+
+
+                        
+                                                                            }
+
+
+                    
+                                                                        }
+
+
+                
+                                                                    }
+            
+                                                                }
+
+
+        
+                                                            }
+
+
+    
+                                                        }
+
+
+                                                    }
+
                                                     j=0;
                                                     while(j<7){
                                                         System.out.print(".");
@@ -168,6 +270,7 @@ public class IntegralCalculator {
 
                                                         if(ok){
 
+                                                            System.out.println();
                                                             System.out.println("So, after minutes of research, struggles and lots of caffine, the result");
 
                                                             if(ok){
@@ -210,6 +313,8 @@ public class IntegralCalculator {
 
                                                                 if(ok){
 
+                                                                    System.out.println();
+                                                                    System.out.println();
                                                                     System.out.println("Cheers :D");
                                                                     System.out.println();
                                                                     System.out.println();
